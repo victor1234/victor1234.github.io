@@ -66,6 +66,22 @@ content:
         description: | # this will include new lines to allow paragraphs
           A universal C++ compression library based on wavelet transformation
 
+      - layout: top-middle
+        title: Imalig
+        link: github.com/victor1234/imalig
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Precise image alignment and camera pose estimation library. Useful for AR, drone landing, SLAM
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
