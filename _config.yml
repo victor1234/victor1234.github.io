@@ -101,6 +101,17 @@ content:
           - Daubechies wavelets algorithm optimization
           - Setup CI, CB, c++ python bindings, pip packaging systems
 
+      - layout: left
+        title: Huawei, R&D department, AR/VR laboratory
+        link: huawei.com
+        sub_title: Senior C++ Computer Vision Engineer
+        caption: December 2019 — September 2021 
+        description: |
+          - Precise camera localization by 2D code
+          - Fast pose recognition of 3D dot pattern
+          - Researching deeply modern nonlinear solver (GTSAM)
+          - Create slam backend engine from scratch (project manager)
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
