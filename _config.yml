@@ -64,10 +64,10 @@ content:
       **Catch2** as *test framework*  
       **CLion**, **NeoVim** as *IDE and code editor*  
 
-  - title: Opensource Projects # Title for the section
+  - title: Opensource Activity # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: middle
         title: WaveletBuffer
         link: github.com/panda-official/WaveletBuffer
         # link_text: Project Website
@@ -83,7 +83,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           A universal C++ compression library based on wavelet transformation
 
-      - layout: top-middle
+      - layout: middle
         title: Imalig
         link: github.com/victor1234/imalig
         # link_text: Project Website
