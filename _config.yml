@@ -44,7 +44,8 @@ additional_links:
 # About Section
 about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | Experienced (10y+) R&D Engineer
+about_content: | 
+  Experienced (10y+) R&D Engineer
 
 content:
   - title: Opensource Projects # Title for the section
