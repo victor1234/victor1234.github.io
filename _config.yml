@@ -48,6 +48,22 @@ about_content: |
   Experienced (10y+) R&D Engineer
 
 content:
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **C++** as *main language*
+      **Python** for *prototyping*
+      **Matlab** for *algorithms reference implementation and documentation* 
+      **CMake** as *main framework  for build, test and benchmark project*
+      **Conan** *for crossplatform dependencies management*
+      **OpenCV**, **DLib** as *computer vision libs*
+      **Ceres,** **GTSAM** as *nonlinear solver libs*
+      **Blaze**, **Eigen** as *linear algebra  libs*
+      **GNUPlot**, **Matplotlib,** **plotly**, **dash** for *visualization*
+      **GIT** as *version control system*
+      **Catch2** as *test framework*
+      **CLion**, **NeoVim** as *IDE and code editor*
+
   - title: Opensource Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
