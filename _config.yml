@@ -81,8 +81,8 @@ content:
         quote: >
           A universal C++ compression library based on wavelet transformation
         description: | # this will include new lines to allow paragraphs
-          I'm one of the developers inside Panda team
-          My contribution
+          I'm one of the developers inside Panda team  
+          Contribution
           - CMake/conan build system, CI
           - Python bindings and build system
           - Daubechies wavelets implementation
@@ -104,13 +104,13 @@ content:
         quote: >
           Precise image alignment and camera pose estimation library. Useful for AR, drone landing, SLAM
         description: | # this will include new lines to allow paragraphs
-          My personal project. I implement simple and effective solution for famous computer vision problem.
+          Personal project. I implement simple and effective solution for famous computer vision problem.
 
       - layout: middle
         title: OpenCV
         link: opencv.org
         description: |
-          Contribution to well known project
+          Contribution to well known library
           - [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed)
           - [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
 
