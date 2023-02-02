@@ -42,9 +42,9 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: | Experienced (10y+) R&D Engineer
 
 content:
   - title: Opensource Projects # Title for the section
