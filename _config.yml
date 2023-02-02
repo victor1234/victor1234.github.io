@@ -154,10 +154,10 @@ content:
         title: National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)
         caption: 2003 - 2009
         sub_title: Master's degree,  Experimental and Theoretical Physics,  Radiation protection and dosimetry
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+         quote: >
+           Founded in 1942, MEPhI is the world's leading university in the field of theoretical and experimental nuclear physics
+        description: | # this will include new lines to allow paragraphs
+           I received a strong education in physics and mathematics and research experience.
         #
         #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
