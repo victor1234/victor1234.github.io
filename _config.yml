@@ -78,10 +78,17 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           A universal C++ compression library based on wavelet transformation
+        description: | # this will include new lines to allow paragraphs
+          I'm one of the developers inside Panda team
+          My contribution
+          - CMake/conan build system, CI
+          - Python bindings and build system
+          - Daubechies wavelets implementation
+          - Image convolution optimization
+          - Matrix manipulation optimization
+          - Benchmark, unit test improvement
 
       - layout: middle
         title: Imalig
@@ -94,10 +101,18 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
+        quote: >
           Precise image alignment and camera pose estimation library. Useful for AR, drone landing, SLAM
+        description: | # this will include new lines to allow paragraphs
+          My personal project. I implement simple and effective solution for famous computer vision problem.
+
+      - layout: middle
+        title: OpenCV
+        link: opencv.org
+        description: |
+          Contribution to well known project
+          - [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed)
+          - [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
