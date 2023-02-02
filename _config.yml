@@ -154,7 +154,7 @@ content:
         title: National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)
         caption: 2003 - 2009
         sub_title: Master's degree,  Experimental and Theoretical Physics,  Radiation protection and dosimetry
-         quote: >
+        quote: >
            Founded in 1942, MEPhI is the world's leading university in the field of theoretical and experimental nuclear physics
         description: | # this will include new lines to allow paragraphs
            I received a strong education in physics and mathematics and research experience.
@@ -174,7 +174,7 @@ content:
   #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
