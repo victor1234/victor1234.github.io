@@ -113,6 +113,40 @@ content:
           - Researching deeply modern nonlinear solver (GTSAM)
           - Create slam backend engine from scratch (project manager)
 
+      - layout: left
+        title: Freelancer (upwork.com, freelansim.ru, etc)
+        link: upwork.com
+        sub_title: C++ Computer Vision Engineer
+        caption: May 2012 — December 2021 
+        description: |
+          - Stereocamera system with two single cams(calibration, synchronization)
+          - Application for one hand big gesture recognition with monolense camera
+          - Sportsmen id identification by self-developed 2d-barcode (with checksum)
+          - Hockey trainer device (two high-speed cameras detected pucks trajectory, velocity and
+          hit point)
+          - UAV landing system (by tracking QR-code and obtain relative position with high
+          accuracy in bad light and weather conditions)
+          - Video search engine (search modified (color, crop, reflection) clip in video database)
+          - Worked with drone orthophoto map creation, structures from motion
+
+      - layout: left
+        title: Biglion
+        link: biglion.ru
+        sub_title: C++ Developer
+        caption: March 2012 — May 2012 
+        description: |
+          Worked on mobile application for Samsung Bada OS
+
+      - layout: left
+        title: Hotspot
+        link: myhotspot.ru
+        sub_title: Augmented Reality Software Engineer
+        caption: May 2011 — March 2012 
+        description: |
+          - Created own augment reality engine from scratch.
+          - Worked with kinect (gesture interface)
+          - Created application with face detection, crop, morph and paste to movie automatically.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
