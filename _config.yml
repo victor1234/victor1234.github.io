@@ -45,26 +45,26 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  Experienced R&D engineer (10y+), with a wide range of completed projects in different areas. I have a good understanding of how to organize work in the unknown domain, which development and research directions to choose, how to analize results and make decisions.
-  I pay much attention to clear solution design, unit tests, documentation, code readability, CI, CB.
+  Experienced R&D engineer (10y+), with a wide range of completed projects in different areas. I have a good understanding of how to organize work in the unknown domain, which development and research directions to choose, how to analize results and make decisions.\
+  I pay much attention to clear solution design, unit tests, documentation, code readability, CI, CB.\
   My goal in my work is to create an effective solution which is user friendly and maintainable.
 
 content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **C++** as *main language*
-      **Python** for *prototyping*
-      **Matlab** for *algorithms reference implementation and documentation*
-      **CMake** as *main framework  for build, test and benchmark project*
-      **Conan**, **vcpkg** *for crossplatform dependencies management*
-      **OpenCV**, **DLib** as *computer vision libs*
-      **Ceres,** **GTSAM** as *nonlinear solver libs*
-      **Blaze**, **Eigen** as *linear algebra  libs*
-      **GNUPlot**, **Matplotlib,** **plotly**, **dash** for *visualization*
-      **GIT** as *version control system*
-      **Catch2** as *test framework*
-      **CLion**, **NeoVim** as *IDE and code editor*
+      **C++** as *main language*\
+      **Python** for *prototyping*\
+      **Matlab** for *algorithms reference implementation and documentation*\
+      **CMake** as *main framework  for build, test and benchmark project*\
+      **Conan**, **vcpkg** *for crossplatform dependencies management*\
+      **OpenCV**, **DLib** as *computer vision libs*\
+      **Ceres,** **GTSAM** as *nonlinear solver libs*\
+      **Blaze**, **Eigen** as *linear algebra  libs*\
+      **GNUPlot**, **Matplotlib,** **plotly**, **dash** for *visualization*\
+      **GIT** as *version control system*\
+      **Catch2** as *test framework*\
+      **CLion**, **NeoVim** as *IDE and code editor*\
 
   - title: Opensource Activity # Title for the section
     layout: list # Type of content section (list/text)
