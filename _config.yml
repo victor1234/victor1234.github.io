@@ -106,7 +106,7 @@ content:
         quote: >
           Precise image alignment and camera pose estimation library. Useful for AR, drone landing, SLAM
         description: | # this will include new lines to allow paragraphs
-          Personal project. I implement simple and effective solution for famous computer vision problem.
+          Personal project. I implemented simple and effective solution for famous computer vision problem.
 
       - layout: middle
         title: OpenCV
@@ -131,9 +131,9 @@ content:
           - Maintainer and main developer of metric math lib
           - Math algorithms optimization
           - Created tiny dnn engine from scratch
-          - Computer vision algorithm develop
+          - Computer vision algorithms implementation
           - Daubechies wavelets algorithm optimization
-          - Setup CI, CB, c++ python bindings, pip packaging systems
+          - Created CI, CB, c++ python bindings, pip packaging systems
 
       - layout: left
         title: Huawei, R&D department, AR/VR laboratory
