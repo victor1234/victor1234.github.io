@@ -45,9 +45,9 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  Experienced R&D engineer (10 years+), with a wide range of completed projects in various fields. I have a good understanding of how to organize work in an unknown field, which development and research directions to choose, how to analyze results and make decisions.
-  I pay a lot of attention to clear solution design, unit tests, documentation, code readability, CI, CB.
-  The goal of my work is to create an effective solution, user-friendly and maintainable.
+  Experienced R&D engineer (10 years+), with a wide range of completed projects in various fields. I have a good understanding of how to organize work in an unknown field, which development and research directions to choose, how to analyze results and make decisions.\
+  I pay a lot of attention to clear solution design, unit tests, documentation, code readability, CI, CB.\
+  The goal of my work is to create an effective solution, user-friendly and maintainable.\
 
 content:
   - title: Skills
