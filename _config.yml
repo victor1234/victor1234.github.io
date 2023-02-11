@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  victor1234
+github_username: victor1234
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -152,6 +152,8 @@ content:
         sub_title: C++ Computer Vision Engineer
         caption: May 2012 — December 2021
         description: |
+          I have completed a large number of diverse projects, which gave me a broad perspective in the industry.And I performed all the stages from beginning to end: coordination of terms of reference, development, communication and delivery of the project, which gave me an understanding of the entire development cycle and related areas, not only programming.\
+
           - Stereocamera system with two single cams(calibration, synchronization)
           - Application for one hand big gesture recognition with monolense camera
           - Sportsmen id identification by self-developed 2d-barcode (with checksum)
