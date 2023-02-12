@@ -152,15 +152,20 @@ content:
         sub_title: C++ Computer Vision Engineer
         caption: May 2012 — December 2021
         description: |
-          I have completed a large number of diverse projects, which gave me a broad perspective in the industry.And I performed all the stages from beginning to end: coordination of terms of reference, development, communication and delivery of the project, which gave me an understanding of the entire development cycle and related areas, not only programming.\
+          I have completed a large number of diverse projects, which gave me a broad perspective in the industry.And I performed all the stages from beginning to end: coordination of terms of reference, development, communication and delivery of the project, which gave me an understanding of the entire development cycle and related areas, not only programming.
 
+          Work result on Upwork:
+          - 100% Job success
+          - *Top Rated* status
+          - Clients who would recommend you: 85%
+
+          Some job topics:
           - Stereocamera system with two single cams(calibration, synchronization)
           - Application for one hand big gesture recognition with monolense camera
           - Sportsmen id identification by self-developed 2d-barcode (with checksum)
           - Hockey trainer device (two high-speed cameras detected pucks trajectory, velocity and
           hit point)
-          - UAV landing system (by tracking QR-code and obtain relative position with high
-          accuracy in bad light and weather conditions)
+          - UAV landing system (by tracking a QR code with a single camera and obtaining a relative position withhigh accuracy in poor light and weather conditions)
           - Video search engine (search modified (color, crop, reflection) clip in video database)
           - Worked with drone orthophoto map creation, structures from motion
 
@@ -170,7 +175,7 @@ content:
         sub_title: C++ Developer
         caption: March 2012 — May 2012
         description: |
-          Worked on mobile application for Samsung Bada OS
+          Mobile application development for Samsung Bada OS
 
       - layout: left
         title: Hotspot
