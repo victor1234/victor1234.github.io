@@ -47,7 +47,7 @@ about_profile_image: images/profile.jpg
 about_content: |
   Experienced R&D engineer (10 years+), with a wide range of completed projects in various fields. I have a good understanding of how to organize work in an unknown field, which development and research directions to choose, how to analyze results and make decisions.\
   I pay a lot of attention to clear solution design, unit tests, documentation, code readability, CI, CB.\
-  The goal of my work is to create an effective solution, user-friendly and maintainable.\
+  The goal of my work is to create an effective solution, user-friendly and maintainable.
 
 content:
   - title: Skills
@@ -64,7 +64,7 @@ content:
       **GNUPlot**, **Matplotlib,** **plotly**, **dash** for *visualization*\
       **GIT** as *version control system*\
       **Catch2** as *test framework*\
-      **CLion**, **NeoVim** as *IDE and code editor*\
+      **CLion**, **NeoVim** as *IDE and code editor*
 
   - title: Opensource Activity # Title for the section
     layout: list # Type of content section (list/text)
@@ -83,7 +83,7 @@ content:
         quote: >
           A universal C++ compression library based on wavelet transformation
         description: | # this will include new lines to allow paragraphs
-          I'm one of the developers inside Panda team
+          I'm one of the developers inside Panda team\
           Contribution
           - CMake/conan build system, CI
           - Python bindings and build system
