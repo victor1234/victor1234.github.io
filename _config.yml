@@ -111,8 +111,10 @@ content:
       - layout: middle
         title: OpenCV
         link: opencv.org
+        quote: >
+          Well-known computer vision library
         description: |
-          Contribution to well known library
+          I mainly worked with the calibration module. I made fixes for camera models, unit/perf tests, documentation, etc
           - [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed)
           - [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
 
@@ -130,11 +132,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Maintainer and developer of [metric](https://github.com/metric-space-ai/metric) math library
           - Developer of [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
-          - Lenear algebra algorithms optimization
-          - Created tiny dnn engine from scratch
           - Computer vision algorithms implementation
+          - Statistical algorithms implementation
+          - Created tiny (dense and convulutional layers) dnn engine from scratch
           - Daubechies wavelets algorithm optimization
+          - Linear algebra algorithms optimization
           - Created CI, CB, C++ Python bindings, pip packaging systems
+          - Created Conan package for WaveletBuffer and added it to [conan-center-index](https://github.com/conan-io/conan-center-index)
 
       - layout: left
         title: Huawei, R&D department, AR/VR laboratory
