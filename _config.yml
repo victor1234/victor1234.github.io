@@ -145,8 +145,8 @@ content:
           I did projects as a team member, personally, and as a project manager:
           - Precise camera localization by 2D code
           - Fast pose recognition of 3D dot pattern
-          - Research modern nonlinear solver (GTSAM) (I found (issue)[https://github.com/borglab/gtsam/issues/248#issuecomment-613988881] in GTSAM)
-          - Slam backend engine from scratch (as project lead)
+          - Research modern nonlinear solver (GTSAM) (I found [issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881] in GTSAM)
+          - Create SLAM backend engine from scratch (as project lead)
           - Research the efficiency of 3D map representation as a set of geometric primitives in a SLAM problem
 
       - layout: left
