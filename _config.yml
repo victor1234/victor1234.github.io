@@ -83,7 +83,7 @@ content:
         quote: >
           A universal C++ compression library based on wavelet transformation
         description: | # this will include new lines to allow paragraphs
-          I'm one of the developers inside Panda team\
+          I'm one of the developers in Panda team.\
           Contribution
           - CMake/conan build system, CI
           - Python bindings and build system
@@ -106,7 +106,7 @@ content:
         quote: >
           Precise image alignment and camera pose estimation library. Useful for AR, drone landing, SLAM
         description: | # this will include new lines to allow paragraphs
-          Personal project. I implemented simple and effective solution for famous computer vision problem.
+          Personal project. I implemented a simple and effective solution for the famous computer vision problem.
 
       - layout: middle
         title: OpenCV
@@ -114,7 +114,7 @@ content:
         quote: >
           Well-known computer vision library
         description: |
-          I mainly worked with the calibration module. I made fixes for camera models, unit/perf tests, documentation, etc
+          I mainly worked with the calibration module. I made fixes for camera models, unit/perf tests, documentation, etc.
           - [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed)
           - [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
 
@@ -137,7 +137,7 @@ content:
           - Created tiny (dense and convulutional layers) dnn engine from scratch
           - Daubechies wavelets algorithm optimization
           - Linear algebra algorithms optimization
-          - Created CI, CB, C++ Python bindings, pip packaging systems
+          - Created CI, CB, C++ Python bindings and pip packaging systems
           - Created Conan package for WaveletBuffer and added it to [conan-center-index](https://github.com/conan-io/conan-center-index)
 
       - layout: left
@@ -149,9 +149,9 @@ content:
           We mostly dealt with SLAM problems.\
           I did projects as a team member, personally, and as a project manager:
           - Precise camera localization by 2D code
-          - Fast pose recognition of 3D dot pattern
-          - Research modern nonlinear solver (GTSAM) (I found [this issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881))
-          - Create SLAM backend engine from scratch (as project lead)
+          - Fast pose recognition a 3D dot pattern
+          - Look into modern nonlinear solver (GTSAM) (I found [this issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881))
+          - Create the SLAM backend engine from scratch (as project lead)
           - Research the efficiency of 3D map representation as a set of geometric primitives in a SLAM problem
 
       - layout: left
@@ -160,19 +160,19 @@ content:
         sub_title: C++ Computer Vision Engineer
         caption: May 2012 — December 2021
         description: |
-          I have completed a large number of diverse projects, which gave me a broad perspective in the industry.And I performed all the stages from beginning to end: coordination of terms of reference, development, communication and delivery of the project, which gave me an understanding of the entire development cycle and related areas, not only programming.
+          I have completed a large number of diverse projects, which gave me a broad perspective in the industry. And I performed all the stages from beginning to end: coordination of terms of reference, development, communication and delivery of the project, which gave me an understanding of the entire development cycle and related areas, not only programming.
 
           Work result on Upwork:
           - 100% Job success
-          - *Top Rated* status
+          - **Top Rated** status
           - Clients who would recommend you: 85%
 
           Some job topics:
-          - Stereocamera system with two single cams(calibration, synchronization)
-          - Application for one hand big gesture recognition with monolense camera
-          - Sportsmen id identification by self-developed 2d-barcode (with checksum)
-          - Hockey trainer device (two high-speed cameras detected pucks trajectory, velocity and
-          hit point)
+          - Stereocamera system with two single cameras (calibration, synchronization)
+          - Application for one hand big gesture recognition with a monolense camera
+          - Sportsmen's id identification by self-developed 2D-barcode (with checksum)
+          - Hockey trainer device (two high-speed cameras detected trajectory, velocity and
+          hit point of the puck)
           - UAV landing system (by tracking a QR code with a single camera and obtaining a relative position withhigh accuracy in poor light and weather conditions)
           - Video search engine (search modified (color, crop, reflection) clip in video database)
           - Worked with drone orthophoto map creation, structures from motion
@@ -192,7 +192,7 @@ content:
         caption: May 2011 — March 2012
         description: |
           - Created own augment reality engine from scratch.
-          - Worked with kinect (gesture interface)
+          - Worked with Kinect (gesture interface)
           - Created application with face detection, crop, morph and paste to movie automatically.
 
   - title: Education # Title for the section
