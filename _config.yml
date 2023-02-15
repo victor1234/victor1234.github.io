@@ -84,7 +84,7 @@ content:
           A universal C++ compression library based on wavelet transformation
         description: | # this will include new lines to allow paragraphs
           I'm one of the developers in Panda team.\
-          Contribution
+          Contribution:
           - CMake/conan build system, CI
           - Python bindings and build system
           - Daubechies wavelets implementation
@@ -160,7 +160,7 @@ content:
         sub_title: C++ Computer Vision Engineer
         caption: May 2012 — December 2021
         description: |
-          I have completed a large number of diverse projects, which gave me a broad perspective in the industry. And I performed all the stages from beginning to end: coordination of terms of reference, development, communication and delivery of the project, which gave me an understanding of the entire development cycle and related areas, not only programming.
+          I've done many different projects, which has given me a broad view of the industry. I did all the stages from start to finish on my own: terms of reference, development, communication, and project deployment, which gave me an understanding of the entire development cycle and related areas, not just programming.
 
           Work result on Upwork:
           - 100% Job success
