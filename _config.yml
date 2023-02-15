@@ -128,8 +128,9 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          - Maintainer and main developer of metric math lib
-          - Math algorithms optimization
+          - Maintainer and developer of [metric](https://github.com/metric-space-ai/metric) math library
+          - Developer of [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
+          - Lenear algebra algorithms optimization
           - Created tiny dnn engine from scratch
           - Computer vision algorithms implementation
           - Daubechies wavelets algorithm optimization
