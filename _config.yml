@@ -130,15 +130,15 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          - Maintainer and developer of [metric](https://github.com/metric-space-ai/metric) math library
-          - Developer of [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
+          - Maintenance and development of [metric](https://github.com/metric-space-ai/metric) math library
+          - Development of [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
           - Computer vision algorithms implementation
           - Statistical algorithms implementation
-          - Created tiny (dense and convulutional layers) dnn engine from scratch
+          - Creation of tiny (dense and convulutional layers) dnn engine from scratch
           - Daubechies wavelets algorithm optimization
           - Linear algebra algorithms optimization
-          - Created CI, CB, C++ Python bindings and pip packaging systems
-          - Created Conan package for WaveletBuffer and added it to [conan-center-index](https://github.com/conan-io/conan-center-index)
+          - Creation CI, CB, C++ Python bindings and pip packaging systems
+          - Creation Conan package for WaveletBuffer and added it to [conan-center-index](https://github.com/conan-io/conan-center-index)
 
       - layout: left
         title: Huawei, R&D department, AR/VR laboratory
@@ -150,9 +150,9 @@ content:
           I did projects as a team member, personally, and as a project manager:
           - Precise camera localization by 2D code
           - Fast pose recognition a 3D dot pattern
-          - Look into modern nonlinear solver (GTSAM) (I found [this issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881))
-          - Create the SLAM backend engine from scratch (as project lead)
-          - Research the efficiency of 3D map representation as a set of geometric primitives in a SLAM problem
+          - Research modern nonlinear solver (GTSAM) (I found [this issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881))
+          - Creation of the SLAM backend engine from scratch (as project lead)
+          - Research of the efficiency of 3D map representation as a set of geometric primitives in a SLAM problem
 
       - layout: left
         title: Freelancer (upwork.com, freelansim.ru, etc)
@@ -160,7 +160,7 @@ content:
         sub_title: C++ Computer Vision Engineer
         caption: May 2012 — December 2021
         description: |
-          I've done many different projects, which has given me a broad view of the industry. I did all the stages from start to finish on my own: terms of reference, development, communication, and project deployment, which gave me an understanding of the entire development cycle and related areas, not just programming.
+          I've done many different projects, which gave me a broad view of the industry. I did all the stages from start to finish on my own: terms of reference, development, communication, and project deployment, which gave me an understanding of the entire development cycle and related areas, not just programming.
 
           Work result on Upwork:
           - 100% Job success
