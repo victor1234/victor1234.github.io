@@ -139,9 +139,10 @@ content:
           - Linear algebra algorithms optimization
           - Creation CI, CB, C++ Python bindings and pip packaging systems
           - Creation Conan package for WaveletBuffer and added it to [conan-center-index](https://github.com/conan-io/conan-center-index)
+
       - layout: left
         title: Artial
-        sub_title: Autonomy Lead/Senior Computer Vision Engineer/Startup consultant
+        sub_title: Autonomy Lead/Startup Сonsultant
         caption: Apr 2023 - May 2023
         description: |
           As an experienced engineer, I have laid a solid foundation for the successful development of software for optical navigation of UAVs.\
