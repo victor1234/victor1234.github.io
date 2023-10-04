@@ -107,7 +107,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Precise image alignment and camera pose estimation library. Useful for AR, drone landing, SLAM
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           Personal project. I implemented a simple and effective solution for the famous computer vision problem.
 
       - layout: middle
@@ -120,18 +120,35 @@ content:
           - [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed)
           - [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
+
+      - layout: left
+        title: Tezzro
+        sub_title: Computer Vision Research Engineer
+        caption: June 2023 - Present
+        description: |
+          - Multi-camera calibration
+
+      - layout: left
+        title: Artial
+        sub_title: Autonomy Lead/Startup Сonsultant
+        caption: April 2023 - May 2023
+        description: |
+          As an experienced engineer, I have laid a solid foundation for the successful development of software for optical navigation of UAVs.\
+          My work includes:
+          - Organizing and planning technical workflows
+          - Creating software architecture for SLAM, obstacle avoidance, drone control, path planning, sensors, etc
+          - Developing integration testing and benchmarking approaches
+          - Setting up and integrating CI, CB into the development process
+
       - layout: left
         title: PANDA GmbH
         link: https://www.panda.technology/
-        # link_text: boringcompany.com
         sub_title: Senior C++ Software Engineer
-        caption: September 2021 - Present
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
+        caption: October 2021 - April 2023
+        description: |
           - Maintenance and development of [metric](https://github.com/metric-space-ai/metric) math library
           - Development of [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
           - Computer vision algorithms implementation
@@ -141,18 +158,6 @@ content:
           - Linear algebra algorithms optimization
           - Creation CI, CB, C++ Python bindings and pip packaging systems
           - Creation Conan package for WaveletBuffer and added it to [conan-center-index](https://github.com/conan-io/conan-center-index)
-
-      - layout: left
-        title: Artial
-        sub_title: Autonomy Lead/Startup Сonsultant
-        caption: Apr 2023 - May 2023
-        description: |
-          As an experienced engineer, I have laid a solid foundation for the successful development of software for optical navigation of UAVs.\
-          My work includes:
-          - Organizing and planning technical workflows
-          - Creating software architecture for SLAM, obstacle avoidance, drone control, path planning, sensors, etc
-          - Developing integration testing and benchmarking approaches
-          - Setting up and integrating CI, CB into the development process
 
       - layout: left
         title: Huawei, R&D department, AR/VR laboratory
