@@ -162,7 +162,7 @@ content:
           - Development of [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
           - Computer vision algorithms implementation
           - Statistical algorithms implementation
-          - Creation of tiny (dense and convulutional layers) dnn engine from scratch
+          - Creation of a tiny DNN engine with dense and convolutional layers from scratch
           - Daubechies wavelets algorithm optimization
           - Linear algebra algorithms optimization
           - Creation CI, CB, C++ Python bindings and pip packaging systems
@@ -188,7 +188,7 @@ content:
         sub_title: C++ Computer Vision Engineer
         caption: May 2012 — December 2021
         description: |
-          I've done many different projects, which gave me a broad view of the industry. I did all the stages from start to finish on my own: terms of reference, development, communication, and project deployment, which gave me an understanding of the entire development cycle and related areas, not just programming.
+          I have completed many different projects, which has given me a broad view of the industry. I handled all stages independently, from creating terms of reference to development, communication, and project deployment. This experience has provided me with a comprehensive understanding of the entire development cycle and related areas, beyond just programming.
 
           Work result on Upwork:
           - 100% Job success
@@ -197,13 +197,13 @@ content:
 
           Some job topics:
           - Stereocamera system with two single cameras (calibration, synchronization)
-          - Application for one hand big gesture recognition with a monolense camera
+          - Application for one-hand large gesture recognition using a single-lens camera
           - Sportsmen's id identification by self-developed 2D-barcode (with checksum)
           - Hockey trainer device (two high-speed cameras detected trajectory, velocity and
           hit point of the puck)
-          - UAV landing system (by tracking a QR code with a single camera and obtaining a relative position withhigh accuracy in poor light and weather conditions)
+          - UAV landing system that tracks a QR code with a single camera to obtain relative position with high accuracy, even in poor light and weather conditions
           - Video search engine (search modified (color, crop, reflection) clip in video database)
-          - Worked with drone orthophoto map creation, structures from motion
+          - Worked on drone orthophoto map creation and structures from motion
 
       - layout: left
         title: Biglion
@@ -229,7 +229,7 @@ content:
       - layout: left
         title: National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)
         caption: 2003 - 2009
-        sub_title: Master's degree,  Experimental and Theoretical Physics,  Radiation protection and dosimetry
+        sub_title: Master's degree in Experimental and Theoretical Physics, specializing in Radiation Protection and Dosimetry
         quote: >
            Founded in 1942, MEPhI is the world's leading university in the field of theoretical and experimental nuclear physics
         description: | # this will include new lines to allow paragraphs
