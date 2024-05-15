@@ -216,12 +216,13 @@ content:
       - layout: left
         title: Hotspot
         link: myhotspot.ru
-        sub_title: Augmented Reality Software Engineer
+        sub_title: C++ Augmented Reality Engineer
         caption: May 2011 — March 2012
         description: |
-          - Created own augment reality engine from scratch.
-          - Worked with Kinect (gesture interface)
-          - Created application with face detection, crop, morph and paste to movie automatically.
+          - Developed a custom augmented reality engine from scratch in C++, optimized for real-time performance and low hardware requirements
+          - Implemented hand gesture recognition using Kinect to create an interactive user interface
+          - Created a face tracking application capable of detecting, cropping, morphing, and overlaying faces in video segments automatically
+          - Led a team of two engineers, overseeing project planning and execution
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
