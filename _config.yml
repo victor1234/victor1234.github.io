@@ -208,10 +208,10 @@ content:
       - layout: left
         title: Biglion
         link: biglion.ru
-        sub_title: C++ Developer
+        sub_title: C++ Software Engineer
         caption: March 2012 — May 2012
         description: |
-          Mobile application development for Samsung Bada OS
+          - Ported mobile applications from Android to Samsung Bada OS
 
       - layout: left
         title: Hotspot
