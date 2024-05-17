@@ -174,7 +174,7 @@ content:
         sub_title: Senior C++ Computer Vision Engineer
         caption: December 2019 — September 2021
         description: |
-          - Led the development of a SLAM backend engine from scratch, successfully completing the project within three months. Efficiently organized team workflow, achieving 20% higher accuracy compared to a solution developed by another department over the course of a year.
+          - Led the development of a SLAM backend engine from scratch, successfully completing the project within three months. Efficiently organized team workflow, achieving 20% higher accuracy compared to a solution developed by another department over the course of a year
           - Developed and implemented a real-time algorithm for precise camera localization using 2D barcodes, achieving 10 times the accuracy of standard methods
           - Developed an original Python algorithm for determining the spatial position of a VR controller with a dot pattern, achieving performance several times faster than other teams' solutions
           - Conducted research and testing of GTSAM as part of a review of modern SLAM solutions, identified a critical issue that made it less effective than Ceres Solver for SLAM applications, and successfully communicated the problem to the author on GitHub, resulting in its resolution [issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881))
