@@ -145,12 +145,11 @@ content:
         sub_title: Autonomy Lead/Startup Consultant
         caption: April 2023 - May 2023
         description: |
-          As an experienced engineer, I have laid a solid foundation for the successful development of software for optical navigation of UAVs.\
-          My work includes:
-          - Organizing and planning technical workflows
-          - Creating software architecture for SLAM, obstacle avoidance, drone control, path planning, sensors, etc
-          - Developing integration testing and benchmarking approaches
-          - Setting up and integrating CI, CB into the development process
+          - Laid a solid foundation for the successful development of software for optical navigation of UAVs
+          - Organized and planned technical workflows for UAV optical navigation software development
+          - Created software architecture for SLAM, obstacle avoidance, drone control, path planning, and sensor integration
+          - Developed integration testing and benchmarking approaches
+          - Set up and integrated CI and CD into the development process
 
       - layout: left
         title: PANDA GmbH
@@ -158,17 +157,15 @@ content:
         sub_title: Senior C++ Software Engineer
         caption: October 2021 - April 2023
         description: |
-          - Maintenance and development of [metric](https://github.com/metric-space-ai/metric) math library
-          - Development of [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
-          - Computer vision algorithms implementation
-          - Statistical algorithms implementation
-          - Creation of a tiny DNN engine with dense and convolutional layers from scratch
-          - Daubechies wavelets algorithm optimization
-          - Linear algebra algorithms optimization
-          - Creation CI, CB, C++ Python bindings and pip packaging systems
-          - Creation Conan package for WaveletBuffer and added it to [conan-center-index](https://github.com/conan-io/conan-center-index)
-
-      - layout: left
+          - Maintained and developed a metric math library
+          - Developed the WaveletBuffer library
+          - Implemented computer vision algorithms
+          - Implemented statistical algorithms
+          - Created a tiny DNN engine with dense and convolutional layers from scratch
+          - Optimized Daubechies wavelets algorithm
+          - Optimized linear algebra algorithms
+          - Created CI, CB, C++ Python bindings, and pip packaging systems
+          - Created a Conan package for WaveletBuffer and added it to conan-center-index
         title: Huawei, R&D department, AR/VR laboratory
         link: huawei.com
         sub_title: Senior C++ Computer Vision Engineer
