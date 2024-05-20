@@ -72,29 +72,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: middle
-        title: WaveletBuffer
-        link: github.com/panda-official/WaveletBuffer
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          A universal C++ compression library based on wavelet transformation
-        description: | # this will include new lines to allow paragraphs
-          I'm one of the developers in Panda team.\
-          Contribution:
-          - CMake/conan build system, CI
-          - Python bindings and build system
-          - Daubechies wavelets implementation
-          - Image convolution optimization
-          - Matrix manipulation optimization
-          - Benchmark, unit test improvement
-
-      - layout: middle
         title: Imalig
         link: github.com/victor1234/imalig
         # link_text: Project Website
@@ -106,9 +83,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Precise image alignment and camera pose estimation library. Useful for AR, drone landing, SLAM
-        description: | 
-          Personal project. I implemented a simple and effective solution for the famous computer vision problem.
+          Personal project
+        description: |
+          - Implemented a simple and effective solution for precise image alignment and camera pose estimation, addressing key challenges in AR, drone landing, and SLAM applications
 
       - layout: middle
         title: OpenCV
@@ -116,9 +93,10 @@ content:
         quote: >
           Well-known computer vision library
         description: |
-          I mainly worked with the calibration module. I made fixes for camera models, unit/perf tests, documentation, etc.
-          - [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed)
-          - [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
+          - Contributed to the calibration module, implementing fixes for various camera models
+          - Developed unit and performance tests to ensure reliability and efficiency
+          - Improved and expanded documentation for better usability
+          - Actively participated in the OpenCV community by addressing issues and submitting pull requests [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed) [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
 
   - title: Experience
     layout: list
@@ -130,9 +108,9 @@ content:
         caption: June 2023 - Present
         description: |
           Multi-camera calibration
-          - I calibrated several dozen cameras installed in a retail space
+          - I calibrated 70 cameras installed in a retail space
           - Achieved a triangulation accuracy of less than 3 cm.
-          - Identified and reported several errors in the OpenCV library related to pattern detection functions.
+          - Identified and reported errors in the OpenCV library related to pattern detection functions.
           - Developed a custom solution for calibrating the intrinsics and extrinsics parameters of cameras
 
           Hand Positioning Accuracy Enhancement
