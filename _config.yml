@@ -130,13 +130,13 @@ content:
         caption: June 2023 - Present
         description: |
           Multi-camera calibration
-          - I calibrated several dozen cameras installed in a retail space.
+          - I calibrated several dozen cameras installed in a retail space
           - Achieved a triangulation accuracy of less than 3 cm.
           - Identified and reported several errors in the OpenCV library related to pattern detection functions.
-          - Developed a custom solution for calibrating the intrinsics and extrinsics parameters of cameras.
+          - Developed a custom solution for calibrating the intrinsics and extrinsics parameters of cameras
 
           Hand Positioning Accuracy Enhancement
-          - Developed an algorithm for refining hand positioning using triangulation data, which significantly reduced the impact of even substantial noise, ensuring high accuracy in position determination.
+          - Developed an algorithm for refining hand positioning using triangulation data, which significantly reduced the impact of even substantial noise, ensuring high accuracy in position determination
           - Resilient to outliers
           - Operates in real-time
 
