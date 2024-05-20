@@ -157,8 +157,8 @@ content:
         sub_title: Senior C++ Software Engineer
         caption: October 2021 - April 2023
         description: |
-          - Maintained and developed a metric math library
-          - Developed the WaveletBuffer library
+          - Maintained and developed a [metric](https://github.com/metric-space-ai/metric) math library
+          - Developed the [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
           - Implemented computer vision algorithms
           - Implemented statistical algorithms
           - Created a tiny DNN engine with dense and convolutional layers from scratch
@@ -166,7 +166,8 @@ content:
           - Optimized linear algebra algorithms
           - Created CI, CB, C++ Python bindings, and pip packaging systems
           - Created a Conan package for WaveletBuffer and added it to conan-center-index
-          
+
+      - layout:  left
         title: Huawei, R&D department, AR/VR laboratory
         link: huawei.com
         sub_title: Senior C++ Computer Vision Engineer
