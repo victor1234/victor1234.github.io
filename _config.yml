@@ -166,6 +166,7 @@ content:
           - Optimized linear algebra algorithms
           - Created CI, CB, C++ Python bindings, and pip packaging systems
           - Created a Conan package for WaveletBuffer and added it to conan-center-index
+          
         title: Huawei, R&D department, AR/VR laboratory
         link: huawei.com
         sub_title: Senior C++ Computer Vision Engineer
