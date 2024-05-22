@@ -108,7 +108,7 @@ content:
         caption: June 2023 - Present
         description: |
           Multi-camera calibration
-          - I calibrated 70 cameras installed in a retail space
+          - Calibrated 70 cameras installed in a retail space
           - Achieved a triangulation accuracy of less than 3 cm.
           - Identified and reported errors in the OpenCV library related to pattern detection functions.
           - Developed a custom solution for calibrating the intrinsics and extrinsics parameters of cameras
@@ -135,13 +135,13 @@ content:
         sub_title: Senior C++ Software Engineer
         caption: October 2021 - April 2023
         description: |
+          - Optimized linear algebra algorithms, achieving performance improvements ranging from 10x to 1000x
           - Maintained and developed a [metric](https://github.com/metric-space-ai/metric) math library
           - Developed the [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
           - Implemented computer vision algorithms
           - Implemented statistical algorithms
           - Created a tiny DNN engine with dense and convolutional layers from scratch
           - Optimized Daubechies wavelets algorithm
-          - Optimized linear algebra algorithms
           - Created CI, CB, C++ Python bindings, and pip packaging systems
           - Created a Conan package for WaveletBuffer and added it to conan-center-index
 
