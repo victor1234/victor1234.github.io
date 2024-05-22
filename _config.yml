@@ -93,10 +93,10 @@ content:
         quote: >
           Well-known computer vision library
         description: |
-          - Contributed to the calibration module, implementing fixes for various camera models
+          - Contributed to the calibration module, implementing fixes for pinhole and fisheye camera models
           - Developed unit and performance tests to ensure reliability and efficiency
           - Improved and expanded documentation for better usability
-          - Actively participated in the OpenCV community by addressing issues and submitting pull requests [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed) [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
+          - Participated in the OpenCV community by addressing issues and submitting pull requests [issues](https://github.com/opencv/opencv/issues?q=is%3Aissue+assignee%3Avictor1234+is%3Aclosed) [PRs](https://github.com/opencv/opencv/pulls?q=is%3Apr+author%3Avictor1234+is%3Aclosed)
 
   - title: Experience
     layout: list
@@ -151,10 +151,10 @@ content:
         sub_title: Senior C++ Computer Vision Engineer
         caption: December 2019 — September 2021
         description: |
-          - Led the development of a SLAM backend engine from scratch, successfully completing the project within three months. Efficiently organized team workflow, achieving 20% higher accuracy compared to a solution developed by another department over the course of a year
+          - Led the development of a SLAM backend engine from scratch, completing the project within three months. Efficiently organized team workflow, achieving 20% higher accuracy compared to a solution developed by another department over the course of a year
           - Developed and implemented a real-time algorithm for precise camera localization using 2D barcodes, achieving 10 times the accuracy of standard methods
           - Developed an original Python algorithm for determining the spatial position of a VR controller with a dot pattern, achieving performance several times faster than other teams' solutions
-          - Conducted research and testing of GTSAM as part of a review of modern SLAM solutions, identified a critical issue that made it less effective than Ceres Solver for SLAM applications, and successfully communicated the problem to the author on GitHub, resulting in its resolution [issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881))
+          - Conducted research and testing of GTSAM as part of a review of modern SLAM solutions, identified a critical issue that made it less effective than Ceres Solver for SLAM applications, and communicated the problem to the author on GitHub, resulting in its resolution [issue](https://github.com/borglab/gtsam/issues/248#issuecomment-613988881))
           - Researched methods for representing urban landscapes in SLAM as planes and geometric primitives, aiming to reduce memory usage and improve landscape part matching
 
       - layout: left
