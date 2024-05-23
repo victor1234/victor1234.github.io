@@ -107,16 +107,10 @@ content:
         sub_title: Computer Vision Research Engineer
         caption: June 2023 - Present
         description: |
-          Multi-camera calibration
-          - Calibrated 70 cameras installed in a retail space
-          - Achieved a triangulation accuracy of less than 3 cm.
-          - Identified and reported errors in the OpenCV library related to pattern detection functions.
-          - Developed a custom solution for calibrating the intrinsics and extrinsics parameters of cameras
-
-          Hand Positioning Accuracy Enhancement
-          - Developed an algorithm for refining hand positioning using triangulation data, which significantly reduced the impact of even substantial noise, ensuring high accuracy in position determination
-          - Resilient to outliers
-          - Operates in real-time
+          - Developed a multi-camera calibration method and calibrated 70 cameras in a single space, achieving triangulation accuracy of less than 3 cm
+          - Identified and reported errors in the OpenCV module related to 2D marker detection
+          - Proposed a calibration method using LIDAR, which provided similar accuracy but was easier to use compared to the method using only cameras
+          - Created a real-time algorithm for human pose estimation, achieving accuracy within 5 cm despite low detection precision and unsynchronized cameras
 
       - layout: left
         title: Artial
