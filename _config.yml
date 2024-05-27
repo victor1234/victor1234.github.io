@@ -130,14 +130,12 @@ content:
         caption: October 2021 - April 2023
         description: |
           - Optimized linear algebra algorithms, achieving performance improvements ranging from 10x to 1000x
-          - Maintained and developed a [metric](https://github.com/metric-space-ai/metric) math library
-          - Developed the [WaveletBuffer](https://github.com/panda-official/WaveletBuffer) library
-          - Implemented computer vision algorithms
+          - Maintained the [Metric](https://github.com/metric-space-ai/metric) library: created unit tests and benchmarks with Catch2, set up pre-commit hooks and CI, modernized the build system with CMake, and revised the documentation
           - Implemented statistical algorithms
           - Created a tiny DNN engine with dense and convolutional layers from scratch
-          - Optimized Daubechies wavelets algorithm
-          - Created CI, CB, C++ Python bindings, and pip packaging systems
-          - Created a Conan package for WaveletBuffer and added it to conan-center-index
+          - Optimized the Daubechies wavelets algorithm using the Blaze linear algebra library to enhance performance and efficiency
+          - Created a build system for a python project with embedded C++ code using modern CMake, Conan, pybind11, and scikit-build
+          - Created a Conan [package](https://conan.io/center/recipes/wavelet_buffer) for WaveletBuffer and added it to conan-center-index
 
       - layout:  left
         title: Huawei, R&D department, AR/VR laboratory
