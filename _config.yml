@@ -164,7 +164,7 @@ content:
           - Engineered a hockey training device with two high-speed cameras to detect puck trajectory, velocity, and hit points
           - Developed a UAV landing system tracking a QR code with a single camera, achieving high accuracy in poor light and weather conditions
           - Built a video search engine to find modified clips (color, crop, reflection) within a video database
-          - Worked on drone orthophoto map creation and structures from motion
+          - Processed drone aerial photos to produce orthophoto maps and 3D reconstruction models
 
       - layout: left
         title: Biglion
