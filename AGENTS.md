@@ -7,6 +7,7 @@ This is a Jekyll résumé site for GitHub Pages. Main content and settings are i
 ## Git
 
 - Use Conventional Commits, such as `feat:`, `fix:`, or `docs:`.
+- When a commit message needs additional details, use a bullet list in the body.
 
 ## Environment
 
