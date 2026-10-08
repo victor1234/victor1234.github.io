@@ -3,8 +3,8 @@ repository: victor1234/victor1234.github.io
 url: "https://victor1234.github.io"
 baseurl: ""
 description: >-
-  Victor Kataev, Senior R&D Computer Vision Engineer specializing in
-  C++, Python, 3D reconstruction, and SLAM.
+  Victor Kataev, Senior Computer Vision Engineer specializing in
+  3D vision, SLAM, camera calibration, C++, and Python.
 author: Victor Kataev
 social:
   name: Victor Kataev
@@ -18,7 +18,7 @@ version: 2
 
 # Personal info
 name: Victor Kataev
-title: Senior R&D Computer Vision Engineer | 10 years+ | C++, Python | 3D reconstruction | SLAM
+title: Senior Computer Vision Engineer | 10+ years | 3D Vision, SLAM, Camera Calibration | C++, Python | Linux, MLOps, Kubernetes
 email: kataev.victor.1234@gmail.com
 website: victor1234.github.io
 
@@ -56,28 +56,35 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  Senior R&D Computer Vision Engineer with over 10 years of experience and a wide range of completed projects in various fields. I have a strong understanding of how to organize work in new areas, select development and research directions, analyze results, and make informed decisions.
-  I place a high emphasis on clear solution design, unit tests, documentation, code readability, continuous integration (CI), and continuous benchmarks (CB).\
-  My goal is to create effective, user-friendly, and maintainable solutions.\
-  \
-  Location: Barcelona, Spain
+  Senior R&D Computer Vision Engineer with over 10 years of experience and a wide range of completed projects across different domains. I have a strong ability to organize work in new areas, define research and development directions, analyze results, and make informed decisions.
+
+  I put strong emphasis on clear solution design, unit testing, documentation, code readability, continuous integration (CI), and continuous benchmarking (CB).
+
+  My goal is to deliver effective, user-friendly, and maintainable solutions.
+
+  Blog: [LinkedIn activity](https://www.linkedin.com/in/victor-kataev/recent-activity/all/)
+
+  Location: Greater Barcelona Metropolitan Area
 
 content:
-  - title: Skills
+  - title: Skills & Tools
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      **C++** as *main language*\
-      **Python** for *prototyping*\
-      **Matlab** for *algorithms reference implementation and documentation*\
-      **CMake** as *main framework  for build, test and benchmark project*\
-      **Conan**, **vcpkg** *for crossplatform dependencies management*\
-      **OpenCV**, **DLib** as *computer vision libs*\
-      **Ceres,** **GTSAM** as *nonlinear solver libs*\
-      **Blaze**, **Eigen** as *linear algebra  libs*\
-      **GNUPlot**, **Matplotlib,** **plotly**, **dash** for *visualization*\
-      **GIT** as *version control system*\
-      **Catch2** as *test framework*\
-      **CLion**, **NeoVim** as *IDE and code editor*
+    content: |
+      **Programming Languages:** C++20, Python, Matlab
+
+      **Computer Vision & Robotics:** SLAM, 3D Reconstruction, Structure-from-Motion, Bundle Adjustment, Point Clouds, Camera Calibration (multi-camera, stereo, fisheye), Photogrammetry, Sensor Fusion (Camera, IMU, LiDAR), UAV Navigation & Perception
+
+      **Mathematics:** Linear Algebra, Nonlinear Optimization, Kalman filter, Daubechies wavelet
+
+      **Machine Learning & Deep Learning:** scikit-learn, PyTorch, JAX
+
+      **Frameworks & Tools:** OpenCV, Ceres Solver, GTSAM, ROS
+
+      **MLOps:** Kubernetes, GitOps, Flux, CI/CD, Docker, GitHub Actions, Continuous Benchmarks, DevContainers, Linux
+
+      **Build Systems & Package Managers:** CMake, Conan, vcpkg, pybind11, scikit-build
+
+      **Additional Tools:** DLib, Blaze, Eigen, GNUPlot, Matplotlib, plotly, dash, Git, Catch2, CLion, NeoVim
 
   - title: Opensource Activity # Title for the section
     layout: list # Type of content section (list/text)
@@ -114,9 +121,13 @@ content:
     content:
 
       - layout: left
+        title: ABB
+        sub_title: Senior Computer Vision Research Engineer (via ERNI)
+        caption: "January 2026 - Present<br>Sant Quirze del Vallès"
+      - layout: left
         title: Tezzro
-        sub_title: Computer Vision Research Engineer
-        caption: June 2023 - Present
+        sub_title: Senior Computer Vision Research Engineer
+        caption: June 2023 - December 2025
         description: |
           - Developed a multi-camera calibration method and calibrated 70 cameras in a single space, achieving triangulation accuracy of less than 3 cm
           - Identified and reported errors in the OpenCV module related to 2D marker detection
@@ -125,20 +136,18 @@ content:
 
       - layout: left
         title: Artial
-        sub_title: Autonomy Lead/Startup Consultant
+        sub_title: Autonomy Lead (Consulting Role)
         caption: April 2023 - May 2023
         description: |
-          - Laid a solid foundation for the successful development of software for optical navigation of UAVs
-          - Organized and planned technical workflows for UAV optical navigation software development
-          - Created software architecture for SLAM, obstacle avoidance, drone control, path planning, and sensor integration
-          - Developed integration testing and benchmarking approaches
-          - Set up and integrated CI and CD into the development process
+          - Invited as external expert to bootstrap UAV optical navigation software
+          - Defined system architecture for SLAM, obstacle avoidance, path planning, and multi-sensor integration (cameras, IMU)
+          - Established development processes: CI/CD pipelines, integration testing, and benchmarking approaches
 
       - layout: left
         title: PANDA GmbH
         link: https://www.panda.technology/
         sub_title: Senior C++ Software Engineer
-        caption: October 2021 - April 2023
+        caption: "October 2021 - April 2023<br>Hamburg, Germany"
         description: |
           - Optimized linear algebra algorithms, achieving performance improvements ranging from 10x to 1000x
           - Maintained the [Metric](https://github.com/metric-space-ai/metric) library: created unit tests and benchmarks with Catch2, set up pre-commit hooks and CI, modernized the build system with CMake, and revised the documentation
@@ -149,11 +158,13 @@ content:
           - Created a Conan [package](https://conan.io/center/recipes/wavelet_buffer) for WaveletBuffer and added it to conan-center-index
 
       - layout:  left
-        title: Huawei, R&D department, AR/VR laboratory
+        title: Huawei
         link: huawei.com
-        sub_title: Senior C++ Computer Vision Engineer
-        caption: December 2019 — September 2021
+        sub_title: Senior Computer Vision Research Engineer
+        caption: "December 2019 — October 2021<br>Moscow, Russia"
         description: |
+          R&D department, AR/VR laboratory
+
           - Led the development of a SLAM backend engine from scratch, completing the project within three months. Efficiently organized team workflow, achieving 20% higher accuracy compared to a solution developed by another department over the course of a year
           - Developed and implemented a real-time algorithm for precise camera localization using 2D barcodes, achieving 10 times the accuracy of standard methods
           - Developed an original Python algorithm for determining the spatial position of a VR controller with a dot pattern, achieving performance several times faster than other teams' solutions
@@ -161,17 +172,17 @@ content:
           - Researched methods for representing urban landscapes in SLAM as planes and geometric primitives, aiming to reduce memory usage and improve landscape part matching
 
       - layout: left
-        title: Contractor (upwork.com, freelansim.ru, etc)
+        title: Upwork
         link: upwork.com
         sub_title: C++ Computer Vision Engineer
-        caption: May 2012 — December 2021
+        caption: September 2012 — December 2019
         description: |
          Completed many different projects, providing a broad view of the industry. Handled all stages independently, from the creation of the terms of reference to development, communication, and project delivery. This experience provided a comprehensive understanding of the entire development cycle and related areas, beyond just programming
 
           - Achieved 100% Job Success Rate, earned Top Rated Status, and received an 85% Client Recommendation Rate on Upwork
           - Designed and implemented a stereocamera system with two single cameras, including calibration and synchronization
           - Developed an application for one-hand large gesture recognition using a single-lens camera
-          - Created a sportsmen ID identification system using a self-developed 2D-barcode with checksum
+          - Created an athlete identification system using a self-developed 2D barcode with checksum
           - Engineered a hockey training device with two high-speed cameras to detect puck trajectory, velocity, and hit points
           - Developed a UAV landing system tracking a QR code with a single camera, achieving high accuracy in poor light and weather conditions
           - Built a video search engine to find modified clips (color, crop, reflection) within a video database
@@ -181,7 +192,7 @@ content:
         title: Biglion
         link: biglion.ru
         sub_title: C++ Software Engineer
-        caption: March 2012 — May 2012
+        caption: "March 2012 — May 2012<br>Moscow, Russia"
         description: |
           - Ported mobile application from Android to Samsung Bada OS
 
@@ -189,7 +200,7 @@ content:
         title: Hotspot
         link: myhotspot.ru
         sub_title: C++ Augmented Reality Engineer
-        caption: May 2011 — March 2012
+        caption: "May 2011 — March 2012<br>Moscow, Russia"
         description: |
           - Developed a custom augmented reality engine from scratch in C++, optimized for real-time performance and low hardware requirements
           - Implemented hand gesture recognition using Kinect to create an interactive user interface
@@ -201,12 +212,12 @@ content:
     content:
       - layout: left
         title: National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)
-        caption: September 2003 - August 2009
-        sub_title: Master's degree in Experimental and Theoretical Physics, specializing in Radiation Protection and Dosimetry
+        caption: 2003 - 2009
+        sub_title: Master's degree, Experimental and Theoretical Physics
         quote: >
            Founded in 1942, MEPhI is the world's leading university in the field of theoretical and experimental nuclear physics
         description: | # this will include new lines to allow paragraphs
-           Received a strong education in physics and mathematics, along with extensive research experience
+           Specialized in Radiation Protection and Dosimetry. Received a strong education in physics and mathematics, along with extensive research experience
         #
         #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
