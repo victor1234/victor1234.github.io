@@ -89,7 +89,7 @@ content:
   - title: Opensource Activity # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: middle
+      - layout: left
         title: Imalig
         link: github.com/victor1234/imalig
         # link_text: Project Website
@@ -105,7 +105,7 @@ content:
         description: |
           - Implemented a simple and effective solution for precise image alignment and camera pose estimation, addressing key challenges in AR, drone landing, and SLAM applications
 
-      - layout: middle
+      - layout: left
         title: OpenCV
         link: opencv.org
         quote: >
