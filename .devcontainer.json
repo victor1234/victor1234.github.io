@@ -1,8 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:trixie",
-  "features": {},
+  "forwardPorts": [
+    4000
+  ],
   "runArgs": [
-    "--security-opt=seccomp=unconfined",
-    "--add-host=host.docker.internal:host-gateway"
+    "--security-opt=seccomp=unconfined"
   ]
 }
