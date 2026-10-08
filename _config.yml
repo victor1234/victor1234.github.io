@@ -227,7 +227,8 @@ footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# Pin the theme commit to keep builds reproducible.
+remote_theme: sproogen/resume-theme@8901c8bcd4713b5a1fafcf0cccb130b840a8519d
 
 # Keep development files out of the published site. Jekyll 3 replaces its
 # default exclusions with this list, so retain the standard entries too.
