@@ -1,5 +1,16 @@
 # Site
 repository: victor1234/victor1234.github.io
+url: "https://victor1234.github.io"
+baseurl: ""
+description: >-
+  Victor Kataev, Senior R&D Computer Vision Engineer specializing in
+  C++, Python, 3D reconstruction, and SLAM.
+author: Victor Kataev
+social:
+  name: Victor Kataev
+  links:
+    - https://github.com/victor1234
+    - https://www.linkedin.com/in/victor-kataev/
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -22,7 +33,7 @@ github_username: victor1234
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: victor-kataev-77a284ba
+linkedin_username: victor-kataev
 # xing_username: jekyll
 # pinterest_username: jekyll
 #youtube_username: globalmtb
