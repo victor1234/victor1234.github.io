@@ -218,6 +218,26 @@ footer_show_references: false
 # Build settings
 remote_theme: sproogen/resume-theme
 
+# Keep development files out of the published site. Jekyll 3 replaces its
+# default exclusions with this list, so retain the standard entries too.
+exclude:
+ - AGENTS.md
+ - issues.md
+ - mise.toml
+ - README.md
+ - .devcontainer.json
+ - .pre-commit-config.yaml
+ - .sass-cache
+ - .jekyll-cache
+ - gemfiles
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - vendor/bundle
+ - vendor/cache
+ - vendor/gems
+ - vendor/ruby
+
 sass:
   sass_dir: _sass
   style: compressed
