@@ -1,0 +1,7 @@
+[tools]
+codex = "latest"
+node = "24.21.0"
+"pipx:pre-commit" = "4.6.2"
+python = "3.12.15"
+ruby = "3.3.12"
+uv = "0.12.23"
