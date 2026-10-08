@@ -1,0 +1,19 @@
+---
+layout: base
+title: Blog
+description: Posts by Victor Kataev.
+permalink: /blog/
+---
+<section class="container blog-content" aria-labelledby="blog-title">
+  <h1 id="blog-title">Blog</h1>
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts %}
+    <article class="blog-entry">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      <p class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time></p>
+      {{ post.excerpt }}
+    </article>
+  {% else %}
+    <p>No posts yet.</p>
+  {% endfor %}
+</section>
