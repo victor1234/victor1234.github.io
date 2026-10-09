@@ -1,6 +1,7 @@
 ---
 title: "How to Get Reliable Camera Calibration?"
 image: /images/posts/camera-calibration.jpg
+linkedin_post_url: https://lnkd.in/p/e25Yi9zv
 excerpt: "Practical recommendations from more than 10 years of camera calibration: pattern coverage, edge distortion, marker size, and detection pitfalls."
 ---
 

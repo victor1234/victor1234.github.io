@@ -10,6 +10,9 @@ layout: base
     {{ content }}
   </div>
   <footer class="post-footer">
+    {% if page.linkedin_post_url %}
+      <p class="post-discussion"><a href="{{ page.linkedin_post_url | escape }}">Discuss this article on LinkedIn <span aria-hidden="true">&rarr;</span></a></p>
+    {% endif %}
     <a href="{{ '/blog/' | relative_url }}">&larr; Back to Blog</a>
   </footer>
 </article>

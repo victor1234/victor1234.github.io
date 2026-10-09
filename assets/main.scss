@@ -91,6 +91,7 @@ pre { overflow-x: auto; background: #f4f6f8; padding: 16px; border-radius: 6px; 
 code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
 blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
 .post-footer { border-top: 1px solid $line; margin-top: 40px; padding-top: 24px; font-size: 1.5rem; }
+.post-discussion { margin-bottom: 20px; }
 .site-footer { display: flex; flex-wrap: wrap; gap: 12px 24px; border-top: 1px solid $line; padding-top: 24px; padding-bottom: 32px; margin-top: 64px; color: $muted; font-size: 1.4rem; }
 .site-footer a { color: $muted; }
 .dark { background: #182129; color: #edf2f6; }
