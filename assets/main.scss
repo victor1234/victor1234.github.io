@@ -48,6 +48,24 @@ img { max-width: 100%; height: auto; }
 .contact-navigation { margin-left: auto; gap: 18px; }
 .contact-navigation a { color: $muted; }
 .site-navigation a:hover, .contact-navigation a:hover { color: $accent; text-decoration: underline; }
+.theme-toggle {
+  width: 32px;
+  min-height: 32px;
+  padding: 6px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: $muted;
+  font: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.theme-icon { display: block; width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+.theme-icon-sun { display: none; }
+.theme-toggle[aria-pressed='true'] .theme-icon-moon { display: none; }
+.theme-toggle[aria-pressed='true'] .theme-icon-sun { display: block; }
+.theme-toggle:hover { color: $accent; }
+.theme-toggle:focus-visible { outline: 2px solid $accent; outline-offset: 5px; }
 .resume-introduction { padding-top: 64px; padding-bottom: 48px; }
 .eyebrow { color: $muted; font-size: 1.3rem; font-weight: 650; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
 .resume-headline { max-width: 780px; color: $muted; font-size: 1.9rem; line-height: 1.65; margin-bottom: 0; }
@@ -112,6 +130,9 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
   .dark a:hover, .dark .blog-entry h2 a:hover, .dark .blog-entry h3 a:hover { color: #d1e9fa; }
   .dark .skip-link { background: #26343f; color: #edf2f6; }
   .dark blockquote { color: #b5c2ce; }
+  .dark .theme-toggle { color: #b5c2ce; }
+  .dark .theme-toggle:hover { color: #d1e9fa; }
+  .dark .theme-toggle:focus-visible { outline-color: #a8d6f4; }
 }
 
 @media (min-width: 768px) {

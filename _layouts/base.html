@@ -2,6 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
   <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark {% endif %}{% if page.url == '/' %}home-page{% elsif page.url == '/resume/' %}resume-page{% else %}writing-page{% endif %}">
+    {% unless site.darkmode == 'never' %}
+      <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    {% endunless %}
     <a class="skip-link" href="#main-content">Skip to content</a>
     {%- include header.html -%}
     <main id="main-content" class="page-content" aria-label="Content" tabindex="-1">
@@ -13,8 +16,5 @@
       </div>
     </main>
     {%- include footer.html -%}
-    {% if site.darkmode == false %}
-      <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
-    {% endif %}
   </body>
 </html>
