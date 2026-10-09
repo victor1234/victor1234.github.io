@@ -1,5 +1,6 @@
 <article class="blog-entry">
-  <h2><a href="{{ include.post.url | relative_url }}">{{ include.post.title | escape }}</a></h2>
+  {% assign heading_level = include.heading_level | default: 2 %}
+  <h{{ heading_level }}><a href="{{ include.post.url | relative_url }}">{{ include.post.title | escape }}</a></h{{ heading_level }}>
   <p class="post-date"><time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: '%B %-d, %Y' }}</time></p>
   <div class="post-excerpt">{{ include.post.excerpt | markdownify }}</div>
   <a class="read-post" href="{{ include.post.url | relative_url }}">Read article <span aria-hidden="true">&rarr;</span><span class="sr-only">: {{ include.post.title | escape }}</span></a>

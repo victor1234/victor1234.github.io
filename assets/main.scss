@@ -52,7 +52,7 @@ img { max-width: 100%; height: auto; }
 .eyebrow { color: $muted; font-size: 1.3rem; font-weight: 650; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
 .resume-headline { max-width: 780px; color: $muted; font-size: 1.9rem; line-height: 1.65; margin-bottom: 0; }
 .home-page .intro-container, .resume-page .list-container, .resume-page .text-container { margin-bottom: 56px; }
-.home-page .container > h3, .resume-page .container > h3 { border-top: 1px solid $line; padding-top: 24px; margin-bottom: 28px; }
+.home-page .container > h2, .resume-page .container > h2 { border-top: 1px solid $line; padding-top: 24px; margin-bottom: 28px; }
 .home-resume-link { margin-top: 20px; margin-bottom: 0; font-size: 1.5rem; }
 .recent-posts > h2 { border-top: 1px solid $line; padding-top: 24px; }
 .recent-posts .blog-entry:first-of-type { border-top: 0; padding-top: 0; margin-top: 24px; }
@@ -62,7 +62,7 @@ img { max-width: 100%; height: auto; }
 .layout:first-of-type { padding-top: 0; margin-top: 0; border-top: 0; }
 .layout .details { align-self: flex-start; }
 .layout .details p { font-size: 1.45rem; color: $muted; line-height: 1.6; margin-bottom: 8px; }
-.layout .details h4 { margin-bottom: 8px; }
+.layout .details h3 { font-size: 2rem; margin-bottom: 8px; }
 .layout .details .link { font-size: 1.4rem; overflow-wrap: anywhere; }
 .layout .content > :last-child { margin-bottom: 0; }
 .quote { color: $muted; font-style: italic; font-size: 1.5rem; }
@@ -74,9 +74,10 @@ img { max-width: 100%; height: auto; }
 .blog-content { max-width: 800px; padding-top: 56px; overflow-wrap: anywhere; }
 .blog-introduction { color: $muted; font-size: 1.8rem; }
 .blog-entry { border-top: 1px solid $line; margin-top: 32px; padding-top: 32px; }
-.blog-entry h2 { font-size: 2.5rem; margin-bottom: 12px; }
-.blog-entry h2 a { color: $ink; text-decoration: none; }
-.blog-entry h2 a:hover { color: $accent; text-decoration: underline; }
+.blog-entry h2, .blog-entry h3 { font-size: 2.5rem; margin-bottom: 12px; }
+.recent-posts .blog-entry h3 { font-size: 2.2rem; }
+.blog-entry h2 a, .blog-entry h3 a { color: $ink; text-decoration: none; }
+.blog-entry h2 a:hover, .blog-entry h3 a:hover { color: $accent; text-decoration: underline; }
 .post-date { color: $muted; font-size: 1.4rem; margin-bottom: 20px; }
 .post-excerpt { margin-top: 20px; }
 .read-post { display: inline-block; font-size: 1.5rem; font-weight: 600; }
@@ -97,7 +98,7 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
 .site-footer a { color: $muted; }
 .dark { background: #182129; color: #edf2f6; }
 .dark a { color: #a8d6f4; }
-.dark .site-brand, .dark .site-navigation a[aria-current], .dark .blog-entry h2 a { color: #edf2f6; }
+.dark .site-brand, .dark .site-navigation a[aria-current], .dark .blog-entry h2 a, .dark .blog-entry h3 a { color: #edf2f6; }
 .dark .eyebrow, .dark .resume-headline, .dark .post-date, .dark .blog-introduction, .dark .details p, .dark .quote, .dark .site-footer, .dark .contact-navigation a, .dark .site-navigation a { color: #b5c2ce; }
 .dark pre { background: #26343f; }
 
@@ -135,7 +136,7 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
   .resume-introduction { padding-top: 16px; padding-bottom: 24px; }
   .blog-content { padding-top: 24px; }
   .col-print-12 { width: 100%; }
-  .home-page .container > h3, .resume-page .container > h3 { margin-bottom: 16px; }
+  .home-page .container > h2, .resume-page .container > h2 { margin-bottom: 16px; }
   .site-footer { margin-top: 24px; padding-top: 16px; }
   h1, h2, h3, h4, .details { break-after: avoid; }
   img { max-height: 70vh; object-fit: contain; }
