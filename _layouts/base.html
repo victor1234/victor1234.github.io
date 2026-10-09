@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
-  <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark {% endif %}{% if page.url == '/' %}resume-page{% else %}writing-page{% endif %}">
+  <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark {% endif %}{% if page.url == '/' %}home-page{% elsif page.url == '/resume/' %}resume-page{% else %}writing-page{% endif %}">
     <a class="skip-link" href="#main-content">Skip to content</a>
     {%- include header.html -%}
     <main id="main-content" class="page-content" aria-label="Content" tabindex="-1">

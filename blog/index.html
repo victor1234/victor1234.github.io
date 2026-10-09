@@ -10,12 +10,7 @@ permalink: /blog/
   <p class="blog-introduction">Practical notes on computer vision, camera calibration, and building reliable software.</p>
   {% assign posts = site.posts | sort: 'date' | reverse %}
   {% for post in posts %}
-    <article class="blog-entry">
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-      <p class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time></p>
-      <div class="post-excerpt">{{ post.excerpt }}</div>
-      <a class="read-post" href="{{ post.url | relative_url }}">Read article <span aria-hidden="true">&rarr;</span><span class="sr-only">: {{ post.title | escape }}</span></a>
-    </article>
+    {% include post-summary.html post=post %}
   {% else %}
     <p>No posts yet.</p>
   {% endfor %}

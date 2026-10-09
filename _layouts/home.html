@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<section class="container resume-introduction" aria-labelledby="home-title">
+  <p class="eyebrow">Computer vision &amp; robotics</p>
+  <h1 id="home-title">{{ site.name | escape }}</h1>
+  <p class="resume-headline">{{ site.title | escape }}</p>
+  <p class="home-resume-link"><a href="{{ '/resume/' | relative_url }}">View resume <span aria-hidden="true">&rarr;</span></a></p>
+</section>
+{%- include about.html -%}
+<section class="container recent-posts" aria-labelledby="recent-posts-title">
+  <h2 id="recent-posts-title">Recent posts</h2>
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts limit:3 %}
+    {% include post-summary.html post=post %}
+  {% else %}
+    <p>No posts yet.</p>
+  {% endfor %}
+  <p class="all-posts-link"><a href="{{ '/blog/' | relative_url }}">View all posts <span aria-hidden="true">&rarr;</span></a></p>
+</section>

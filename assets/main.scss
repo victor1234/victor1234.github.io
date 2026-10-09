@@ -51,8 +51,12 @@ img { max-width: 100%; height: auto; }
 .resume-introduction { padding-top: 64px; padding-bottom: 48px; }
 .eyebrow { color: $muted; font-size: 1.3rem; font-weight: 650; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
 .resume-headline { max-width: 780px; color: $muted; font-size: 1.9rem; line-height: 1.65; margin-bottom: 0; }
-.resume-page .intro-container, .resume-page .list-container, .resume-page .text-container { margin-bottom: 56px; }
-.resume-page .container > h3 { border-top: 1px solid $line; padding-top: 24px; margin-bottom: 28px; }
+.home-page .intro-container, .resume-page .list-container, .resume-page .text-container { margin-bottom: 56px; }
+.home-page .container > h3, .resume-page .container > h3 { border-top: 1px solid $line; padding-top: 24px; margin-bottom: 28px; }
+.home-resume-link { margin-top: 20px; margin-bottom: 0; font-size: 1.5rem; }
+.recent-posts > h2 { border-top: 1px solid $line; padding-top: 24px; }
+.recent-posts .blog-entry:first-of-type { border-top: 0; padding-top: 0; margin-top: 24px; }
+.all-posts-link { margin-top: 28px; margin-bottom: 0; font-size: 1.5rem; }
 .profile-img { display: block; width: 160px; height: 160px; border-radius: 50%; background-size: cover; background-position: center; }
 .layout { padding-top: 28px; margin-top: 28px; border-top: 1px solid $line; }
 .layout:first-of-type { padding-top: 0; margin-top: 0; border-top: 0; }
@@ -107,7 +111,7 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
   .contact-navigation { margin-left: 0; width: 100%; gap: 20px; }
   .resume-introduction { padding-top: 36px; padding-bottom: 32px; }
   .resume-headline { font-size: 1.7rem; }
-  .resume-page .intro-container, .resume-page .list-container, .resume-page .text-container { margin-bottom: 40px; }
+  .home-page .intro-container, .resume-page .list-container, .resume-page .text-container { margin-bottom: 40px; }
   .profile-img { width: 112px; height: 112px; margin-bottom: 24px; }
   .layout .details { margin-bottom: 20px; }
   .blog-content { padding-top: 36px; }
@@ -125,7 +129,7 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
   .resume-introduction { padding-top: 16px; padding-bottom: 24px; }
   .blog-content { padding-top: 24px; }
   .col-print-12 { width: 100%; }
-  .resume-page .container > h3 { margin-bottom: 16px; }
+  .home-page .container > h3, .resume-page .container > h3 { margin-bottom: 16px; }
   .site-footer { margin-top: 24px; padding-top: 16px; }
   h1, h2, h3, h4, .details { break-after: avoid; }
   img { max-height: 70vh; object-fit: contain; }
