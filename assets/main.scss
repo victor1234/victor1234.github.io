@@ -118,6 +118,9 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
   .contact-navigation { margin-left: 0; width: 100%; gap: 20px; }
   .resume-introduction { padding-top: 36px; padding-bottom: 32px; }
   .resume-headline { font-size: 1.7rem; }
+  .resume-headline .headline-group { display: block; }
+  .resume-headline .headline-group + .headline-separator + .headline-group { margin-top: 6px; }
+  .resume-headline .headline-separator { display: none; }
   .home-page .intro-container, .resume-page .list-container, .resume-page .text-container { margin-bottom: 40px; }
   .profile-img { width: 112px; height: 112px; margin-bottom: 24px; }
   .layout .details { margin-bottom: 20px; }

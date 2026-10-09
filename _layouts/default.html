@@ -4,7 +4,7 @@ layout: base
 <section class="container resume-introduction" aria-labelledby="resume-title">
   <p class="eyebrow">Resume</p>
   <h1 id="resume-title">{{ site.name | escape }}</h1>
-  <p class="resume-headline">{{ site.title | escape }}</p>
+  {% include professional-headline.html %}
 </section>
 {%- if site.version == 2 -%}
   {% for section in site.content %}

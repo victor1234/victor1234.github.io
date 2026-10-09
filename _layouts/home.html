@@ -4,7 +4,7 @@ layout: base
 <section class="container resume-introduction" aria-labelledby="home-title">
   <p class="eyebrow">Computer vision &amp; robotics</p>
   <h1 id="home-title">{{ site.name | escape }}</h1>
-  <p class="resume-headline">{{ site.title | escape }}</p>
+  {% include professional-headline.html %}
   <p class="home-resume-link"><a href="{{ '/resume/' | relative_url }}">View resume <span aria-hidden="true">&rarr;</span></a></p>
 </section>
 {%- include about.html -%}
