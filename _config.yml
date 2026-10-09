@@ -94,7 +94,7 @@ content:
 
       **Additional Tools:** DLib, Blaze, Eigen, GNUPlot, Matplotlib, plotly, dash, Git, Catch2, CLion, NeoVim
 
-  - title: Opensource Activity # Title for the section
+  - title: Open-source activity # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -131,11 +131,11 @@ content:
       - layout: left
         title: ABB
         sub_title: Senior Computer Vision Research Engineer (via ERNI)
-        caption: "January 2026 - Present<br>Sant Quirze del Vallès"
+        caption: "January 2026 – Present<br>Sant Quirze del Vallès"
       - layout: left
         title: Tezzro
         sub_title: Senior Computer Vision Research Engineer
-        caption: June 2023 - December 2025
+        caption: June 2023 – December 2025
         description: |
           - Developed a multi-camera calibration method and calibrated 70 cameras in a single space, achieving triangulation accuracy of less than 3 cm
           - Identified and reported errors in the OpenCV module related to 2D marker detection
@@ -145,7 +145,7 @@ content:
       - layout: left
         title: Artial
         sub_title: Autonomy Lead (Consulting Role)
-        caption: April 2023 - May 2023
+        caption: April 2023 – May 2023
         description: |
           - Invited as external expert to bootstrap UAV optical navigation software
           - Defined system architecture for SLAM, obstacle avoidance, path planning, and multi-sensor integration (cameras, IMU)
@@ -155,7 +155,7 @@ content:
         title: PANDA GmbH
         link: https://www.panda.technology/
         sub_title: Senior C++ Software Engineer
-        caption: "October 2021 - April 2023<br>Hamburg, Germany"
+        caption: "October 2021 – April 2023<br>Hamburg, Germany"
         description: |
           - Optimized linear algebra algorithms, achieving performance improvements ranging from 10x to 1000x
           - Maintained the [Metric](https://github.com/metric-space-ai/metric) library: created unit tests and benchmarks with Catch2, set up pre-commit hooks and CI, modernized the build system with CMake, and revised the documentation
@@ -169,7 +169,7 @@ content:
         title: Huawei
         link: huawei.com
         sub_title: Senior Computer Vision Research Engineer
-        caption: "December 2019 — October 2021<br>Moscow, Russia"
+        caption: "December 2019 – October 2021<br>Moscow, Russia"
         description: |
           R&D department, AR/VR laboratory
 
@@ -183,7 +183,7 @@ content:
         title: Upwork
         link: upwork.com
         sub_title: C++ Computer Vision Engineer
-        caption: September 2012 — December 2019
+        caption: September 2012 – December 2019
         description: |
          Completed many different projects, providing a broad view of the industry. Handled all stages independently, from the creation of the terms of reference to development, communication, and project delivery. This experience provided a comprehensive understanding of the entire development cycle and related areas, beyond just programming
 
@@ -200,7 +200,7 @@ content:
         title: Biglion
         link: biglion.ru
         sub_title: C++ Software Engineer
-        caption: "March 2012 — May 2012<br>Moscow, Russia"
+        caption: "March 2012 – May 2012<br>Moscow, Russia"
         description: |
           - Ported mobile application from Android to Samsung Bada OS
 
@@ -208,7 +208,7 @@ content:
         title: Hotspot
         link: myhotspot.ru
         sub_title: C++ Augmented Reality Engineer
-        caption: "May 2011 — March 2012<br>Moscow, Russia"
+        caption: "May 2011 – March 2012<br>Moscow, Russia"
         description: |
           - Developed a custom augmented reality engine from scratch in C++, optimized for real-time performance and low hardware requirements
           - Implemented hand gesture recognition using Kinect to create an interactive user interface
@@ -220,7 +220,7 @@ content:
     content:
       - layout: top
         title: National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)
-        caption: 2003 - 2009
+        caption: 2003 – 2009
         sub_title: Master's degree, Experimental and Theoretical Physics
         quote: >
            Founded in 1942, MEPhI is the world's leading university in the field of theoretical and experimental nuclear physics
