@@ -218,7 +218,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top
         title: National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)
         caption: 2003 - 2009
         sub_title: Master's degree, Experimental and Theoretical Physics

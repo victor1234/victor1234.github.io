@@ -70,6 +70,7 @@ img { max-width: 100%; height: auto; }
 .layout-right { flex-direction: row-reverse; }
 .layout-top, .layout-top-middle, .layout-top-right { flex-direction: column; }
 .layout-top .details, .layout-top .content, .layout-top-middle .details, .layout-top-middle .content, .layout-top-right .details, .layout-top-right .content { width: 100%; }
+.layout-top .details { margin-bottom: 20px; }
 .blog-content { max-width: 800px; padding-top: 56px; overflow-wrap: anywhere; }
 .blog-introduction { color: $muted; font-size: 1.8rem; }
 .blog-entry { border-top: 1px solid $line; margin-top: 32px; padding-top: 32px; }
@@ -103,6 +104,10 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
 @media (min-width: 768px) {
   .col-sm-4 { width: 30%; }
   .col-sm-8 { width: 70%; }
+}
+@media screen and (max-width: 959px) {
+  .resume-page .layout .details, .resume-page .layout .content { width: 100%; }
+  .resume-page .layout .details { margin-bottom: 20px; }
 }
 @media (max-width: 767px) {
   .container { padding-left: 20px; padding-right: 20px; }
