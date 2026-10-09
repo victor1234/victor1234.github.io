@@ -5,7 +5,9 @@ baseurl: ""
 description: >-
   Victor Kataev, Senior Computer Vision Engineer specializing in
   3D vision, SLAM, camera calibration, C++, and Python.
-author: Victor Kataev
+author:
+  name: Victor Kataev
+  url: https://victor1234.github.io/
 social:
   name: Victor Kataev
   links:
