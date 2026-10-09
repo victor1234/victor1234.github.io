@@ -104,6 +104,16 @@ blockquote { border-left: 3px solid $line; padding-left: 20px; color: $muted; }
 .dark .eyebrow, .dark .resume-headline, .dark .post-date, .dark .blog-introduction, .dark .details p, .dark .quote, .dark .site-footer, .dark .contact-navigation a, .dark .site-navigation a { color: #b5c2ce; }
 .dark pre { background: #26343f; }
 
+@media screen {
+  .dark .site-header, .dark .site-footer, .dark .layout, .dark .blog-entry,
+  .dark .post-footer, .dark blockquote, .dark.home-page .container > h2,
+  .dark.resume-page .container > h2 { border-color: #394854; }
+  .dark a:focus-visible { outline-color: #a8d6f4; }
+  .dark a:hover, .dark .blog-entry h2 a:hover, .dark .blog-entry h3 a:hover { color: #d1e9fa; }
+  .dark .skip-link { background: #26343f; color: #edf2f6; }
+  .dark blockquote { color: #b5c2ce; }
+}
+
 @media (min-width: 768px) {
   .col-sm-4 { width: 30%; }
   .col-sm-8 { width: 70%; }
