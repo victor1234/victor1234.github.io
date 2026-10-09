@@ -22,7 +22,7 @@ But for now, I’ll start with some practical recommendations on calibration:
 - Measure the actual marker size after printing/creating the pattern
 - To get more points near the frame edges, use patterns that can still be detected even when partially out of view
 
-Use ChArUco boards with caution:
+## Use ChArUco boards with caution:
 
 - First, the embedded 2D barcodes inside each cell prevent you from making them small enough to achieve a high cell count
 - Second, OpenCV’s detection has been unstable. I ran into these issues a couple of years ago and opened a few tickets:
