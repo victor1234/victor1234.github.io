@@ -1,6 +1,11 @@
 ---
 layout: base
 ---
+<section class="container resume-introduction" aria-labelledby="resume-title">
+  <p class="eyebrow">Computer vision &amp; robotics</p>
+  <h1 id="resume-title">{{ site.name | escape }}</h1>
+  <p class="resume-headline">{{ site.title | escape }}</p>
+</section>
 {%- include about.html -%}
 {%- if site.version == 2 -%}
   {% for section in site.content %}

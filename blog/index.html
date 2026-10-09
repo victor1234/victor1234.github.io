@@ -4,14 +4,17 @@ title: Blog
 description: Posts by Victor Kataev.
 permalink: /blog/
 ---
-<section class="container blog-content" aria-labelledby="blog-title">
+<section class="container blog-content blog-index" aria-labelledby="blog-title">
+  <p class="eyebrow">Notes &amp; articles</p>
   <h1 id="blog-title">Blog</h1>
+  <p class="blog-introduction">Practical notes on computer vision, camera calibration, and building reliable software.</p>
   {% assign posts = site.posts | sort: 'date' | reverse %}
   {% for post in posts %}
     <article class="blog-entry">
       <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
       <p class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time></p>
-      {{ post.excerpt }}
+      <div class="post-excerpt">{{ post.excerpt }}</div>
+      <a class="read-post" href="{{ post.url | relative_url }}">Read article <span aria-hidden="true">&rarr;</span><span class="sr-only">: {{ post.title | escape }}</span></a>
     </article>
   {% else %}
     <p>No posts yet.</p>

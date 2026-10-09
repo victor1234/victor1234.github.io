@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {%- include head.html -%}
-  <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+  <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark {% endif %}{% if page.url == '/' %}resume-page{% else %}writing-page{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     {%- include header.html -%}
-    {%- include navigation.html -%}
-    <main class="page-content" aria-label="Content">
+    <main id="main-content" class="page-content" aria-label="Content" tabindex="-1">
       <div class="wrapper">
         {%- if jekyll.environment == 'production' and site.gtm -%}
           {%- include gtm_body.html -%}

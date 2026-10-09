@@ -1,0 +1,5 @@
+<footer class="container site-footer">
+  <span>{{ site.name | escape }}</span>
+  {% if site.email %}<a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a>{% endif %}
+  {% if site.footer_show_references %}<span>{{ site.references_title | default: 'References on request' }}</span>{% endif %}
+</footer>

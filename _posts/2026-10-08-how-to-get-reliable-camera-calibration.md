@@ -1,6 +1,7 @@
 ---
 title: "How to Get Reliable Camera Calibration?"
 image: /images/posts/camera-calibration.jpg
+excerpt: "Practical recommendations from more than 10 years of camera calibration: pattern coverage, edge distortion, marker size, and detection pitfalls."
 ---
 
 ![Calibration checkerboard with circular markers and a red overlay reading “No Checkerboard Detected” and “Searching for: 11×14 pattern”.]({{ '/images/posts/camera-calibration.jpg' | relative_url }})

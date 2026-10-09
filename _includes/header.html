@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.name | escape }}</a>
+    {%- include navigation.html -%}
+    <nav class="contact-navigation no-print" aria-label="Contact and profiles">
+      {% if site.github_username %}<a href="https://github.com/{{ site.github_username | escape }}">GitHub</a>{% endif %}
+      {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username | escape }}/">LinkedIn</a>{% endif %}
+      {% if site.email %}<a href="mailto:{{ site.email | escape }}">Email</a>{% endif %}
+      {% for link in site.additional_links %}<a href="{{ link.url | escape }}">{{ link.title | escape }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
