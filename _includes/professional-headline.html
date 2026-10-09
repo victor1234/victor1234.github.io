@@ -1,5 +1,5 @@
 <p class="resume-headline">
-  {% assign headline_groups = site.title | split: ' | ' %}
+  {% assign headline_groups = site.headline | split: ' | ' %}
   {% for group in headline_groups %}
     {% unless forloop.first %}<span class="headline-separator" aria-hidden="true"> | </span>{% endunless %}
     <span class="headline-group">{{ group | escape }}</span>
